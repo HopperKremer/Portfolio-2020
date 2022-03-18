@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-  --overlay-color: rgba(31 , 31, 31 , 0.85);
+  --overlay-color: rgba(66, 66, 66, 0.85);
   }
 
 .menu-wrap {
@@ -47,7 +47,7 @@
    flex: none;
    width: 50%;
    height: 2px;
-   background: #fff;
+   background: rgb(240, 177, 118);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -142,7 +142,7 @@ ul li{
 }
 
 ul li a{
-  color: #fff;
+  color: rgb(230, 104, 95);
   text-decoration: none;
   font-size: 1.7em;
   padding: 5px 20px;
@@ -152,13 +152,13 @@ ul li a{
 }
 
 ul:hover li a{
-  color:  rgba(255,255,255,1);
+  color:  rgb(214, 94, 90);
 }
 
 ul li:hover a{
   font-size: 3em;
-  color: #000;
-  background: rgba(255,255,255,1);
+  color: rgb(221, 70, 24);
+  background: rgb(235, 87, 18);
 }
 
 ul li a:before{

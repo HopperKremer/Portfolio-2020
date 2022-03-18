@@ -6,29 +6,31 @@ import Animate from 'react-smooth';
 import HamburgerMenu from '../../components/hamburger_menu';
 import ContactLeft from '../../components/contact_left';
 import EmailForm from '../../components/email_form';
-import ReactGa from 'react-ga';
+// import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
 import particles from '../../const/contact_particle.js';
 import Particles from 'react-particles-js';
 
 class Contact extends React.Component {
 
-  componentDidMount() {
-    //--Motasim Foads Portfolio website Google analytics--
-    //--Replace with your own key !!
-    ReactGa.initialize("UA-154721739-1");
-    ReactGa.pageview('motasimfoad.com - Contact Screen');
-  }
-   //--Motasim Foads Portfolio website Google analytics--
+  // componentDidMount() {
+  //   //--Hopper Kremers Portfolio website Google analytics--
+  //   //--Replace with your own key !!
+  //   ReactGa.initialize("UA-154721739-1");
+  //   ReactGa.pageview('motasimfoad.com - Contact Screen');
+  // }
+
+
+   //--Hopper Kremers Portfolio website Google analytics--
 
   render() {
     return (
       <div>
         <Helmet>
                 <meta charSet="utf-8" />
-                <title>Contact | Motasim Foad</title>
-                <link rel="canonical" href="http://motasimfoad.com/contact" />
-                <meta name="description" content="Motasim Foad | Contact - Product Manager | Project Manager | Software Engineer" />
+                <title>Contact | Hopper Kremer</title>
+                <link rel="canonical" href="http://hopperkremer.com/contact" />
+                <meta name="description" content="Hopper Kremer | Contact - Web Developer || Mobile Developer || Python Programmer" />
         </Helmet>
         <Animate to="1" from="0" attributeName="opacity">
           <Particles

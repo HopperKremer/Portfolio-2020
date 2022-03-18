@@ -10,6 +10,7 @@ import About from "../pages/about";
 import Contact from "../pages/contact";
 import Loading from "../pages/loading";
 import Project from "../pages/projects";
+import Timeline from "../pages/timeline";
 
 export default function Nav() {
   return (
@@ -20,6 +21,7 @@ export default function Nav() {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/project" component={Project} />
+        <Route path="/timeline" component={Timeline} />
         <Route path="*" component={Home} />
       </Switch>
     </Router>

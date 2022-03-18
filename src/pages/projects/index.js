@@ -16,9 +16,9 @@ class Projects extends Component {
         <Container className="About-header" fluid={true}>
           <Helmet>
                 <meta charSet="utf-8" />
-                <title>Project | Motasim Foad</title>
-                <link rel="canonical" href="http://motasimfoad.com/project"/>
-                <meta name="description" content="Motasim Foad | Project - Product Manager | Project Manager | Software Engineer
+                <title>Project | Hopper Kremer</title>
+                <link rel="canonical" href="http://hopperkremer.com/project"/>
+                <meta name="description" content="Hopper Kremer | Project - Product Manager | Project Manager | Software Engineer
                 Experienced Project & Product Manager with a demonstrated history of working in computer software industry. 
                 Skilled in leading edge project management, web & software development tools & trends. 
                 Strong computer engineering base with a BSc in Computer Science focused in Computer Software Engineering from BRAC University. 

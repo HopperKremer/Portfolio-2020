@@ -13,14 +13,16 @@ import Particles from 'react-particles-js';
 import particles from '../../const/particle.js';
 import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
+import HamburgerMenu from '../../components/hamburger_menu';
 
-//--Motasim Foads Portfolio website Google analytics--
+
+//--Hopper Kremers Portfolio website Google analytics--
 //--Replace with your own key !!
 function Analytics(){
   ReactGa.initialize("UA-154721739-1")
-  ReactGa.pageview('motasimfoad.com - Home Screen')
+  ReactGa.pageview('hopperkremer.com - Home Screen')
 }
-//--Motasim Foads Portfolio website Google analytics--
+//--Hopper Kremers Portfolio website Google analytics--
 
 function Home() {
   Analytics()
@@ -28,15 +30,16 @@ function Home() {
       <div>
          <Helmet>
                   <meta charSet="utf-8" />
-                  <title>Home | Motasim Foad</title>
-                  <link rel="canonical" href="http://motasimfoad.com/home" />
-                  <meta name="description" content="Motasim Foad | Home - Product Manager | Project Manager | Software Engineer" />
+                  <title>Home | Hopper Kremer</title>
+                  <link rel="canonical" href="http://hopperkremer.com/home" />
+                  <meta name="description" content="Hopper Kremer | Home - Jr. Developer" />
          </Helmet>
           <Animate to="1" from="0" attributeName="opacity">
             <Particles
             params={particles}
             className="particle"
             />
+            <HamburgerMenu />
           <Container className="App-header" fluid={true}>
             <Row className="App-main">
               <Col  xl={7}  className="App-left">

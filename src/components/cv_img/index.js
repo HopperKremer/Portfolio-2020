@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../cv_img/style.css';
 import cv1 from '../../assets/img/cv1.png';
 import cv2 from '../../assets/img/cv2.png';
-import cv3 from '../../assets/img/cv3.png';
-import cv4 from '../../assets/img/cv4.png';
 import cv from '../../assets/img/cv.png';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; 
@@ -12,7 +10,7 @@ import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
 
 const images = [
-  cv1,cv2,cv3,cv4
+  cv1,cv2
 ];
 
 export default class CRI extends Component {
@@ -32,7 +30,7 @@ export default class CRI extends Component {
         <Zoom right> 
         <Flip right>
         <div>
-          <img src={cv} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" alt="Motasim Foad CV preview"/>
+          <img src={cv} onClick={() => this.setState({ isOpen: true })} className="cv_img_mouse" alt="Hopper Kremer CV preview"/>
             {isOpen && (
                 <Lightbox
                   mainSrc={images[photoIndex]}

@@ -10,6 +10,7 @@
       height: 65vh;
       margin: auto;    
       display: block;
+      border-radius: 2%;
   }
 
   .home-right-footer{

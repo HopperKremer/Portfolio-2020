@@ -20,11 +20,11 @@ import {
            Hello! 
          </h1>
          <h2 className="second_line">
-           I am <strong>motasim foad</strong>
+           I am <strong>Hopper Kremer</strong>
          </h2>
          <h3>
          <ReactTypingEffect
-           text="Product & Project Manager || Software Engineer ... " //text=["Hello.", "World!"]
+           text="Web Developer / Mobile Developer / Python Programmer" //text=["Hello.", "World!"]
            className="typical"
            speed="100"
            eraseDelay="500000"
@@ -32,8 +32,9 @@ import {
          </h3>
           
            <br />
-           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp;
-           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/contact" className="home-left-aboutme">Contact Me</Link></Button>
+           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About</Link></Button> &nbsp;
+           {/* <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/contact" className="home-left-aboutme">Contact Me</Link></Button> */}
+           <Button variant="outline-light" size="lg" className="home-left-timeline-btn"><Link to="/timeline" style={{ textDecoration: 'none', color: 'white' }} className="home-left-timeline">Timeline</Link></Button> &nbsp;
          </Col>
      </Row>
    </Container>

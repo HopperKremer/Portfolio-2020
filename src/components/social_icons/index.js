@@ -10,19 +10,19 @@ function SocialIcons() {
   return (
          <Col xl={12} className="social-icons">
           &nbsp; &nbsp; &nbsp; &nbsp;
-          <a href="https://fb.com/okrittim" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/hopperkremer/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="fb" icon={faFacebook} />
           </a>
-          <a href="https://github.com/motasimfoad" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/hopperkremer" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="git" icon={faGithub} />
           </a>
-          <a href="https://twitter.com/okrittim" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/HopperKremer" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="twitter" icon={faTwitter} />
           </a>
-          <a href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/hopperkremer/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="insta" icon={faInstagram} />
           </a>
-          <a href="https://www.linkedin.com/in/okrittim/?originalSubdomain=bd" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/hopperkremer/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className="linkedin" icon={faLinkedin} />
           </a>
          </Col>
